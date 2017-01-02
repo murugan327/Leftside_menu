@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import "REFrostedViewController.h"
+#import "Menu_ViewController.h"
+#import "Home_ViewController.h"
+#import "DEMONavigationController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,REFrostedViewControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
@@ -19,7 +23,9 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
-
+@property (nonatomic, strong) REFrostedViewController *sideMenuViewController;
+@property (nonatomic, strong) Menu_ViewController *menuViewController;
+@property (nonatomic, strong) Home_ViewController *mainViewController;
 
 @end
 

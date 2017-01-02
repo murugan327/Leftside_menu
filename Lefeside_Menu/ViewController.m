@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DEMONavigationController.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+  self.navigationItem.leftBarButtonItem=[[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"three.png"] style:UIBarButtonItemStylePlain target:(DEMONavigationController *)self.navigationController action:@selector(showMenu)];
 }
 
 - (void)didReceiveMemoryWarning {

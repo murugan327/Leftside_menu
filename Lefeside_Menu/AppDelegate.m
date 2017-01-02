@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DEMOMenuViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,25 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    UIStoryboard *sb=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    Home_ViewController *main=[sb instantiateViewControllerWithIdentifier:@"Home_ViewController"];
+    Menu_ViewController *menuController=[sb instantiateViewControllerWithIdentifier:@"Menu_ViewController"];
+    
+    DEMONavigationController *navigationController = [[DEMONavigationController alloc] initWithRootViewController:main];
+    
+//    DEMOMenuViewController *menuController = [[DEMOMenuViewController alloc] initWithStyle:UITableViewStylePlain];
+    
+    // Create frosted view controller
+    //
+    REFrostedViewController *frostedViewController = [[REFrostedViewController alloc] initWithContentViewController:navigationController menuViewController:menuController];
+    frostedViewController.direction = REFrostedViewControllerDirectionLeft;
+    frostedViewController.liveBlurBackgroundStyle = REFrostedViewControllerLiveBackgroundStyleLight;
+    frostedViewController.liveBlur = YES;
+    frostedViewController.delegate = self;
+    self.window.rootViewController = frostedViewController;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

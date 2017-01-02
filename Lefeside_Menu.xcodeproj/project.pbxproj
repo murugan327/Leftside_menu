@@ -14,6 +14,20 @@
 		E37AB50E1E1ACA2300B7DC58 /* Lefeside_Menu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E37AB50C1E1ACA2300B7DC58 /* Lefeside_Menu.xcdatamodeld */; };
 		E37AB5101E1ACA2300B7DC58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E37AB50F1E1ACA2300B7DC58 /* Assets.xcassets */; };
 		E37AB5131E1ACA2300B7DC58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37AB5111E1ACA2300B7DC58 /* LaunchScreen.storyboard */; };
+		E37AB5271E1ACA4200B7DC58 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AB51C1E1ACA4200B7DC58 /* RECommonFunctions.m */; };
+		E37AB5281E1ACA4200B7DC58 /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AB51E1E1ACA4200B7DC58 /* REFrostedContainerViewController.m */; };
+		E37AB5291E1ACA4200B7DC58 /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AB5201E1ACA4200B7DC58 /* REFrostedViewController.m */; };
+		E37AB52A1E1ACA4200B7DC58 /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AB5221E1ACA4200B7DC58 /* UIImage+REFrostedViewController.m */; };
+		E37AB52B1E1ACA4200B7DC58 /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AB5241E1ACA4200B7DC58 /* UIView+REFrostedViewController.m */; };
+		E37AB52C1E1ACA4200B7DC58 /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AB5261E1ACA4200B7DC58 /* UIViewController+REFrostedViewController.m */; };
+		E37AB52F1E1ACB2300B7DC58 /* Home_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AB52E1E1ACB2300B7DC58 /* Home_ViewController.m */; };
+		E37AB5321E1ACB3300B7DC58 /* Menu_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AB5311E1ACB3300B7DC58 /* Menu_ViewController.m */; };
+		E37AB5391E1AD06F00B7DC58 /* DEMOMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AB5381E1AD06F00B7DC58 /* DEMOMenuViewController.m */; };
+		E37AB53C1E1AD12100B7DC58 /* DEMOHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AB53B1E1AD12100B7DC58 /* DEMOHomeViewController.m */; };
+		E37AB53F1E1AD13700B7DC58 /* DEMOSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AB53E1E1AD13700B7DC58 /* DEMOSecondViewController.m */; };
+		E37AB5411E1AD3DB00B7DC58 /* three.png in Resources */ = {isa = PBXBuildFile; fileRef = E37AB5401E1AD3DB00B7DC58 /* three.png */; };
+		E37AB5441E1AD45300B7DC58 /* DEMONavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AB5431E1AD45300B7DC58 /* DEMONavigationController.m */; };
+		E37AB5471E1AD73500B7DC58 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E37AB5461E1AD73500B7DC58 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +42,33 @@
 		E37AB50F1E1ACA2300B7DC58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E37AB5121E1ACA2300B7DC58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E37AB5141E1ACA2300B7DC58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E37AB51B1E1ACA4200B7DC58 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		E37AB51C1E1ACA4200B7DC58 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		E37AB51D1E1ACA4200B7DC58 /* REFrostedContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedContainerViewController.h; sourceTree = "<group>"; };
+		E37AB51E1E1ACA4200B7DC58 /* REFrostedContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedContainerViewController.m; sourceTree = "<group>"; };
+		E37AB51F1E1ACA4200B7DC58 /* REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedViewController.h; sourceTree = "<group>"; };
+		E37AB5201E1ACA4200B7DC58 /* REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedViewController.m; sourceTree = "<group>"; };
+		E37AB5211E1ACA4200B7DC58 /* UIImage+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+REFrostedViewController.h"; sourceTree = "<group>"; };
+		E37AB5221E1ACA4200B7DC58 /* UIImage+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+REFrostedViewController.m"; sourceTree = "<group>"; };
+		E37AB5231E1ACA4200B7DC58 /* UIView+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+REFrostedViewController.h"; sourceTree = "<group>"; };
+		E37AB5241E1ACA4200B7DC58 /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
+		E37AB5251E1ACA4200B7DC58 /* UIViewController+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+REFrostedViewController.h"; sourceTree = "<group>"; };
+		E37AB5261E1ACA4200B7DC58 /* UIViewController+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+REFrostedViewController.m"; sourceTree = "<group>"; };
+		E37AB52D1E1ACB2300B7DC58 /* Home_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home_ViewController.h; sourceTree = "<group>"; };
+		E37AB52E1E1ACB2300B7DC58 /* Home_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home_ViewController.m; sourceTree = "<group>"; };
+		E37AB5301E1ACB3300B7DC58 /* Menu_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu_ViewController.h; sourceTree = "<group>"; };
+		E37AB5311E1ACB3300B7DC58 /* Menu_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu_ViewController.m; sourceTree = "<group>"; };
+		E37AB5371E1AD06F00B7DC58 /* DEMOMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOMenuViewController.h; sourceTree = "<group>"; };
+		E37AB5381E1AD06F00B7DC58 /* DEMOMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOMenuViewController.m; sourceTree = "<group>"; };
+		E37AB53A1E1AD12100B7DC58 /* DEMOHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOHomeViewController.h; sourceTree = "<group>"; };
+		E37AB53B1E1AD12100B7DC58 /* DEMOHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOHomeViewController.m; sourceTree = "<group>"; };
+		E37AB53D1E1AD13700B7DC58 /* DEMOSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOSecondViewController.h; sourceTree = "<group>"; };
+		E37AB53E1E1AD13700B7DC58 /* DEMOSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOSecondViewController.m; sourceTree = "<group>"; };
+		E37AB5401E1AD3DB00B7DC58 /* three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three.png; sourceTree = "<group>"; };
+		E37AB5421E1AD45300B7DC58 /* DEMONavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMONavigationController.h; sourceTree = "<group>"; };
+		E37AB5431E1AD45300B7DC58 /* DEMONavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMONavigationController.m; sourceTree = "<group>"; };
+		E37AB5451E1AD73500B7DC58 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		E37AB5461E1AD73500B7DC58 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +101,18 @@
 		E37AB4FF1E1ACA2200B7DC58 /* Lefeside_Menu */ = {
 			isa = PBXGroup;
 			children = (
-				E37AB51A1E1ACA2A00B7DC58 /* New Group */,
+				E37AB51A1E1ACA2A00B7DC58 /* RF */,
 				E37AB5031E1ACA2300B7DC58 /* AppDelegate.h */,
 				E37AB5041E1ACA2300B7DC58 /* AppDelegate.m */,
 				E37AB5061E1ACA2300B7DC58 /* ViewController.h */,
 				E37AB5071E1ACA2300B7DC58 /* ViewController.m */,
+				E37AB52D1E1ACB2300B7DC58 /* Home_ViewController.h */,
+				E37AB52E1E1ACB2300B7DC58 /* Home_ViewController.m */,
+				E37AB5301E1ACB3300B7DC58 /* Menu_ViewController.h */,
+				E37AB5311E1ACB3300B7DC58 /* Menu_ViewController.m */,
+				E37AB5451E1AD73500B7DC58 /* TableViewCell.h */,
+				E37AB5461E1AD73500B7DC58 /* TableViewCell.m */,
+				E37AB5401E1AD3DB00B7DC58 /* three.png */,
 				E37AB5091E1ACA2300B7DC58 /* Main.storyboard */,
 				E37AB50F1E1ACA2300B7DC58 /* Assets.xcassets */,
 				E37AB5111E1ACA2300B7DC58 /* LaunchScreen.storyboard */,
@@ -83,11 +131,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E37AB51A1E1ACA2A00B7DC58 /* New Group */ = {
+		E37AB51A1E1ACA2A00B7DC58 /* RF */ = {
 			isa = PBXGroup;
 			children = (
+				E37AB53D1E1AD13700B7DC58 /* DEMOSecondViewController.h */,
+				E37AB53E1E1AD13700B7DC58 /* DEMOSecondViewController.m */,
+				E37AB53A1E1AD12100B7DC58 /* DEMOHomeViewController.h */,
+				E37AB53B1E1AD12100B7DC58 /* DEMOHomeViewController.m */,
+				E37AB5371E1AD06F00B7DC58 /* DEMOMenuViewController.h */,
+				E37AB5381E1AD06F00B7DC58 /* DEMOMenuViewController.m */,
+				E37AB51B1E1ACA4200B7DC58 /* RECommonFunctions.h */,
+				E37AB51C1E1ACA4200B7DC58 /* RECommonFunctions.m */,
+				E37AB51D1E1ACA4200B7DC58 /* REFrostedContainerViewController.h */,
+				E37AB5421E1AD45300B7DC58 /* DEMONavigationController.h */,
+				E37AB5431E1AD45300B7DC58 /* DEMONavigationController.m */,
+				E37AB51E1E1ACA4200B7DC58 /* REFrostedContainerViewController.m */,
+				E37AB51F1E1ACA4200B7DC58 /* REFrostedViewController.h */,
+				E37AB5201E1ACA4200B7DC58 /* REFrostedViewController.m */,
+				E37AB5211E1ACA4200B7DC58 /* UIImage+REFrostedViewController.h */,
+				E37AB5221E1ACA4200B7DC58 /* UIImage+REFrostedViewController.m */,
+				E37AB5231E1ACA4200B7DC58 /* UIView+REFrostedViewController.h */,
+				E37AB5241E1ACA4200B7DC58 /* UIView+REFrostedViewController.m */,
+				E37AB5251E1ACA4200B7DC58 /* UIViewController+REFrostedViewController.h */,
+				E37AB5261E1ACA4200B7DC58 /* UIViewController+REFrostedViewController.m */,
 			);
-			name = "New Group";
+			name = RF;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E37AB5411E1AD3DB00B7DC58 /* three.png in Resources */,
 				E37AB5131E1ACA2300B7DC58 /* LaunchScreen.storyboard in Resources */,
 				E37AB5101E1ACA2300B7DC58 /* Assets.xcassets in Resources */,
 				E37AB50B1E1ACA2300B7DC58 /* Main.storyboard in Resources */,
@@ -160,10 +229,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E37AB52C1E1ACA4200B7DC58 /* UIViewController+REFrostedViewController.m in Sources */,
 				E37AB5081E1ACA2300B7DC58 /* ViewController.m in Sources */,
+				E37AB5281E1ACA4200B7DC58 /* REFrostedContainerViewController.m in Sources */,
+				E37AB53C1E1AD12100B7DC58 /* DEMOHomeViewController.m in Sources */,
+				E37AB5271E1ACA4200B7DC58 /* RECommonFunctions.m in Sources */,
+				E37AB53F1E1AD13700B7DC58 /* DEMOSecondViewController.m in Sources */,
 				E37AB5051E1ACA2300B7DC58 /* AppDelegate.m in Sources */,
 				E37AB5021E1ACA2300B7DC58 /* main.m in Sources */,
+				E37AB5391E1AD06F00B7DC58 /* DEMOMenuViewController.m in Sources */,
+				E37AB5471E1AD73500B7DC58 /* TableViewCell.m in Sources */,
+				E37AB52F1E1ACB2300B7DC58 /* Home_ViewController.m in Sources */,
 				E37AB50E1E1ACA2300B7DC58 /* Lefeside_Menu.xcdatamodeld in Sources */,
+				E37AB5291E1ACA4200B7DC58 /* REFrostedViewController.m in Sources */,
+				E37AB52A1E1ACA4200B7DC58 /* UIImage+REFrostedViewController.m in Sources */,
+				E37AB52B1E1ACA4200B7DC58 /* UIView+REFrostedViewController.m in Sources */,
+				E37AB5441E1AD45300B7DC58 /* DEMONavigationController.m in Sources */,
+				E37AB5321E1ACB3300B7DC58 /* Menu_ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
