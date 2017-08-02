@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
+    NSLog(@"hi");
     UIStoryboard *sb=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
     Home_ViewController *main=[sb instantiateViewControllerWithIdentifier:@"Home_ViewController"];
     Menu_ViewController *menuController=[sb instantiateViewControllerWithIdentifier:@"Menu_ViewController"];
