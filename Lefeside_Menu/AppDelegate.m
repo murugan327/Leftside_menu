@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    NSLog(@"hii");
+    
     UIStoryboard *sb=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
     Home_ViewController *main=[sb instantiateViewControllerWithIdentifier:@"Home_ViewController"];
     Menu_ViewController *menuController=[sb instantiateViewControllerWithIdentifier:@"Menu_ViewController"];
@@ -37,9 +37,26 @@
     self.window.rootViewController = frostedViewController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    [self rate];
+    
     return YES;
 }
-
+-(void)rate{
+    const NSString *iOS7 = @"itms-apps://itunes.apple.com/app/idAPP_ID";
+    const NSString *iOS8 = @"itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=APP_ID&onlyLatestVersion=true&pageNumber=0&sortOrdering=1&type=Purple+Software";
+    
+    NSString *appID = @"";
+    NSString *reviewURL = nil;
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0 && [[[UIDevice currentDevice] systemVersion] floatValue] < 8.0) {
+        reviewURL = [iOS7 stringByReplacingOccurrencesOfString:@"APP_ID" withString:[NSString stringWithFormat:@"%@", appID]];
+    }
+    else if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+    {
+        reviewURL = [iOS8 stringByReplacingOccurrencesOfString:@"APP_ID" withString:[NSString stringWithFormat:@"%@", appID]];
+    }
+    
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:reviewURL]];
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
